@@ -207,3 +207,6 @@ int first = stack.Pop(); // 1
 Although not frequently employed, both Stack<T> and Queue<T> have specific uses in various programming scenarios.
 
 ## 4. Exercices
+
+--- 
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2pjajhiZHF0OXRybHVuNGp5ODVjdTQ5Z2locTRvdmEyaWxsa2QyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Jam5tvnwAcBA4ZrbSO/giphy.gif)
