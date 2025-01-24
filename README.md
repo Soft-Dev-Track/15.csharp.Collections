@@ -208,5 +208,41 @@ Although not frequently employed, both Stack<T> and Queue<T> have specific uses 
 
 ## 4. Exercices
 
+### 1. Inventory Management System
+Track and organize items in a store inventory, maintaining them in sorted order by name.
+
+- Instructions:
+    - Use a SortedDictionary<string, int> where the key is the item name, and the value is its quantity.
+    - Implement the following features:
+        - **Add Items**: Add new items or update the quantity of existing items.
+        - **Remove Items**: Remove an item from the inventory.
+        - **Check Low Stock**: Display all items with quantities below a specific threshold.
+        - **Show All Items**: Display the full inventory in alphabetical order of item names.
+
+### 2. Library Book Tracker
+Manage books in a library and keep track of borrowed books.
+
+- Instructions:
+    - Use two HashSet<string> collections:
+        - One to store all available books.
+        - One to store all borrowed books.
+    - Implement these features:
+        - **Add Books**: Add new books to the available books collection.
+        - **Borrow a Book**: Move a book from the available collection to the borrowed collection.
+        - **Return a Book**: Move a book back from the borrowed collection to the available collection.
+        - **Search for a Book**: Check whether a book is available, borrowed, or not in the library.
+        - **Show All Books**: Display all available and borrowed books.
+
+### 3. Event Registration System
+Track attendees for events, allowing duplicates if someone registers for multiple events.
+
+- Instructions:
+    - Use a List<(string eventName, string attendeeName)> to track event registrations.
+    - Implement these features:
+        - **Register Attendee**: Add an attendee's name to a specific event.
+        - **Remove Registration**: Remove an attendee's registration for a specific event.
+        - **List Event Attendees**: Display all attendees registered for a specific event.
+        - **Show All Registrations**: Display all event-attendee pairs.
+        
 --- 
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2pjajhiZHF0OXRybHVuNGp5ODVjdTQ5Z2locTRvdmEyaWxsa2QyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Jam5tvnwAcBA4ZrbSO/giphy.gif)
